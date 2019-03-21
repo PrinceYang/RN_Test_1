@@ -20,10 +20,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "eslint ./" 
-    }
   }
 }

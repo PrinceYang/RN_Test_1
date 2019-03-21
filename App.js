@@ -30,6 +30,16 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    margin: 30,
+    borderRadius:10,
+    borderColor:'#000000',
+    borderWidth: 1,
+    shadowColor:'#30c000',
+    shadowOpacity:10,
+    shadowOffset: {
+      shadowWidth:20,
+      shadowHeight:20,
+    },
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
@@ -42,7 +52,7 @@ const styles = StyleSheet.create({
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: '#339993',
     marginBottom: 5,
   },
 });
